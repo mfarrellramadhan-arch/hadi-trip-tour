@@ -1,0 +1,993 @@
+<!DOCTYPE html><html lang="id"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Nusantara Trans - Rental Mobil &amp; Paket Wisata Terpercaya di Indonesia</title>
+<!-- Google Fonts: Plus Jakarta Sans & Cormorant Garamond -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config tailored for Variant 1 Champagne Gold & Luxury Warm Off-White -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            background: "#F8F9FA",
+            surface: "#F8F9FA",
+            "surface-card": "#FFFFFF",
+            "surface-container": "#F3F1EC",
+            "surface-container-low": "#FAF9F6",
+            "surface-container-high": "#EDE9E1",
+            "outline-border": "#EAE6DF",
+            "outline-border-gold": "#E4D4A8",
+            "text-charcoal": "#1E293B",
+            "text-muted": "#64748B",
+            "gold": {
+              DEFAULT: "#C59B27",
+              light: "#E5C158",
+              dark: "#9E7B1D",
+              soft: "#FBF7EC",
+              border: "#E9DCB8"
+            }
+          },
+          fontFamily: {
+            serif: ["'Cormorant Garamond'", "Georgia", "serif"],
+            sans: ["'Plus Jakarta Sans'", "sans-serif"]
+          },
+          boxShadow: {
+            'luxury': '0 10px 30px -10px rgba(30, 41, 59, 0.05), 0 4px 12px -2px rgba(197, 155, 39, 0.04)',
+            'luxury-hover': '0 20px 35px -10px rgba(30, 41, 59, 0.08), 0 8px 20px -4px rgba(197, 155, 39, 0.12)',
+            'gold-glow': '0 4px 14px 0 rgba(197, 155, 39, 0.25)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#F8F9FA] text-text-charcoal font-sans antialiased min-h-screen selection:bg-gold/20 selection:text-gold-dark">
+<!-- TOP APP BAR -->
+<header class="sticky top-0 z-50 w-full bg-[#FFFFFF]/90 backdrop-blur-md border-b border-outline-border shadow-[0_2px_12px_rgba(0,0,0,0.03)]">
+<div class="flex justify-between items-center w-full px-6 lg:px-12 max-w-7xl mx-auto h-20">
+<!-- Brand Logo Anchor -->
+<a class="flex items-center gap-2.5 sm:gap-3.5 shrink-0 group active:scale-95 transition-transform duration-150" href="#"><div class="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-gradient-to-tr from-gold-dark via-gold to-gold-light flex items-center justify-center text-white shadow-gold-glow shrink-0"><span class="material-symbols-outlined text-[20px] sm:text-[24px]">directions_car</span></div><div class="flex flex-col"><span class="font-serif text-lg sm:text-2xl font-bold tracking-normal text-text-charcoal group-hover:text-gold-dark transition-colors whitespace-nowrap">Nusantara Trans</span><span class="text-[9px] sm:text-[11px] uppercase tracking-[0.18em] sm:tracking-[0.2em] font-semibold text-gold-dark -mt-0.5 sm:-mt-1 whitespace-nowrap">Tour &amp; Rental Service</span></div></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-gold-dark font-bold border-b-2 border-gold pb-1 text-sm tracking-wide transition-colors duration-200" href="#sewa-mobil">Sewa Mobil</a>
+<a class="text-text-charcoal hover:text-gold-dark transition-colors duration-200 text-sm tracking-wide font-medium" href="#paket-wisata">Paket Wisata</a>
+<a class="text-text-charcoal hover:text-gold-dark transition-colors duration-200 text-sm tracking-wide font-medium" href="#keunggulan">Tentang Kami</a>
+<a class="text-text-charcoal hover:text-gold-dark transition-colors duration-200 text-sm tracking-wide font-medium" href="#testimoni">Testimoni</a>
+</nav>
+<!-- Trailing Action: WhatsApp Fast Response & Contact Admin -->
+<div class="flex items-center gap-2 sm:gap-4 shrink-0"><div class="hidden lg:flex flex-col items-end"><div class="flex items-center gap-1.5 text-gold-dark text-xs font-semibold uppercase tracking-wider"><span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span><span class="">Fast Response 24 Jam</span></div><span class="text-sm font-bold text-text-charcoal tracking-tight">+62 812-3456-7890</span></div><a class="flex items-center gap-1.5 sm:gap-2 bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white font-medium text-xs sm:text-sm px-3 py-2 sm:px-5 sm:py-2.5 rounded-full shadow-gold-glow hover:shadow-lg transition-all duration-200 active:scale-95 shrink-0 whitespace-nowrap" href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[17px] sm:text-[19px]">support_agent</span><span class="hidden xs:inline sm:inline">Hubungi WhatsApp</span><span class="inline xs:hidden sm:hidden">WhatsApp</span></a><button id="theme-toggle" type="button" aria-label="Ganti Tema" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center border border-[#e5d8b8] bg-white/90 hover:bg-[#faf6ee] text-[#b88e3e] shadow-sm transition-all active:scale-95 shrink-0"><span class="material-symbols-outlined text-[18px] sm:text-[20px]">light_mode</span></button></div>
+</div>
+</header>
+<main>
+<!-- HERO SECTION -->
+<section class="relative pt-14 pb-28 md:pt-20 md:pb-36 overflow-hidden bg-gradient-to-b from-[#FAF9F6] via-[#F8F9FA] to-[#F4F1EA]">
+<!-- Ambient Warm Gold Ambient Lighting -->
+<div class="absolute -top-12 right-1/4 -z-10 w-96 h-96 bg-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-10 left-5 -z-10 w-80 h-80 bg-[#EFE9D9]/50 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Hero Copywriter Column -->
+<div class="lg:col-span-7 space-y-7 text-left">
+<!-- Trust Pill -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white border border-outline-border-gold shadow-sm">
+<span class="flex text-gold">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</span>
+<span class="text-xs font-bold text-text-charcoal tracking-wide">4.9 / 5.0</span>
+<span class="text-xs text-text-muted">(2.500+ Ulasan Pelanggan Terverifikasi)</span>
+</div>
+<!-- Headline (Serif luxury) -->
+<h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-text-charcoal font-semibold leading-[1.12] tracking-tight">
+            Rental Mobil &amp; Paket Wisata <span class="italic text-gold font-normal underline decoration-gold/40 decoration-1 underline-offset-8">Terpercaya</span> di Indonesia
+          </h1>
+<!-- Supporting Paragraph -->
+<p class="text-base sm:text-lg text-text-muted max-w-2xl leading-relaxed font-normal">
+            Solusi transportasi nyaman untuk perjalanan dinas, liburan keluarga, dan petualangan tanpa repot. Armada terawat, opsi lepas kunci atau didampingi driver profesional ramah bersertifikasi.
+          </p>
+<!-- Key Feature Metrics Strip -->
+<div class="pt-3 flex flex-wrap items-center gap-8 text-text-charcoal">
+<div class="flex items-center gap-3.5">
+<div class="w-11 h-11 rounded-full bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark shadow-sm">
+<span class="material-symbols-outlined text-[22px]">directions_car</span>
+</div>
+<div>
+<div class="font-serif text-2xl font-bold text-text-charcoal">500+</div>
+<div class="text-xs uppercase tracking-wider text-text-muted font-medium">Armada Terawat</div>
+</div>
+</div>
+<div class="h-9 w-px bg-outline-border hidden sm:block"></div>
+<div class="flex items-center gap-3.5">
+<div class="w-11 h-11 rounded-full bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark shadow-sm">
+<span class="material-symbols-outlined text-[22px]">schedule</span>
+</div>
+<div>
+<div class="font-serif text-2xl font-bold text-text-charcoal">24 Jam</div>
+<div class="text-xs uppercase tracking-wider text-text-muted font-medium">Layanan Siaga Nonstop</div>
+</div>
+</div>
+<div class="h-9 w-px bg-outline-border hidden sm:block"></div>
+<div class="flex items-center gap-3.5">
+<div class="w-11 h-11 rounded-full bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark shadow-sm">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+<div>
+<div class="font-serif text-2xl font-bold text-text-charcoal">100% Aman</div>
+<div class="text-xs uppercase tracking-wider text-text-muted font-medium">Asuransi Perjalanan</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Hero Graphic Column with Framed Luxury Cards -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto rounded-3xl overflow-hidden border border-outline-border-gold bg-white p-3 shadow-luxury">
+<img class="w-full h-80 lg:h-96 object-cover rounded-2xl" data-alt="A modern luxury fleet of pristine rental vehicles parked gracefully along a scenic coastal Indonesian highway during golden hour. The lush tropical greenery and calm turquoise ocean serve as a cinematic backdrop. Warm sunlight reflects off polished silver and dark emerald vehicle bodies, emphasizing premium build quality, immaculate cleanliness, and adventurous high-end archipelago travel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6yYkwpArRDXlVSjHB3CxyRCV5M_eGQPS7zCuOA4LnH3ckIwW5_A4XKTlg62YjXgdJIOl5C-lC7l7WYgnKi8Go9gr9L_JJHlJZxdteX6SFiuOqVwi9P0P9-d17BkGANBFcNHdGsHN5uBs-Szu37Oi2So0QV5nhs1lKT728VLp_2ytqrE1Xgunv_ID28YI-vnZ8ZUkNhGhcbsUIiK_3frGf2NseqyQFY8oEUeQX8Xo">
+<!-- Floating Notification Card -->
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-white/95 backdrop-blur-md border border-outline-border-gold shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-full bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark">
+<span class="material-symbols-outlined text-[22px]">airline_seat_recline_extra</span>
+</div>
+<div>
+<h4 class="text-sm font-bold text-text-charcoal font-serif tracking-normal text-[15px]">Armada Baru &amp; Higienis</h4>
+<p class="text-xs text-text-muted">Disinfeksi dan servis rutin berkala</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1.5 text-gold-dark text-xs font-bold uppercase tracking-wider bg-gold-soft px-2.5 py-1 rounded-full border border-gold-border">
+                Ready
+                <span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING LUXURY MULTI-TAB SEARCH BOX -->
+<section class="relative -mt-16 z-30 max-w-7xl mx-auto px-6 lg:px-12">
+<div class="bg-white rounded-2xl border border-outline-border-gold shadow-luxury p-6 md:p-8">
+<!-- Search Mode Tabs & Toggle -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-outline-border pb-5 mb-6">
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold text-white text-sm font-semibold shadow-gold-glow transition-all duration-200" id="tab-rental" onclick="switchSearchTab('rental')">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+<span class="">Sewa Mobil</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FAF9F6] text-text-charcoal hover:bg-gold-soft hover:text-gold-dark text-sm font-medium border border-outline-border transition-all duration-200" id="tab-tour" onclick="switchSearchTab('tour')">
+<span class="material-symbols-outlined text-[18px]">travel_explore</span>
+<span class="">Paket Wisata</span>
+</button>
+</div>
+<!-- Driver Service Segmented Toggle -->
+<div class="inline-flex p-1 bg-[#FAF9F6] rounded-full border border-outline-border">
+<button class="px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gold-dark shadow-xs border border-outline-border-gold transition-all duration-150" id="toggle-driver" onclick="toggleServiceMode('driver')">
+            Dengan Sopir
+          </button>
+<button class="px-4 py-1.5 rounded-full text-xs font-medium text-text-muted hover:text-text-charcoal transition-all duration-150" id="toggle-self" onclick="toggleServiceMode('self')">
+            Lepas Kunci
+          </button>
+</div>
+</div>
+<!-- Dynamic Rental Form Inputs -->
+<form class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5" id="search-form-rental" onsubmit="event.preventDefault();">
+<!-- Input 1: Lokasi -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">location_on</span>
+            Lokasi Penjemputan
+          </label>
+<div class="relative">
+<select class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-4 py-3 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all">
+<option value="CGK">Bandara Soekarno-Hatta (Jakarta)</option>
+<option selected="" value="DPS">Bandara Ngurah Rai (Bali)</option>
+<option value="JOG">Stasiun Tugu / Bandara YIA (Yogyakarta)</option>
+<option value="MLG">Stasiun Kotabaru (Malang)</option>
+<option value="SUB">Bandara Juanda (Surabaya)</option>
+<option value="BDO">Stasiun Bandung (Bandung)</option>
+<option value="LBJ">Bandara Komodo (Labuan Bajo)</option>
+</select>
+</div>
+</div>
+<!-- Input 2: Tanggal Sewa -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">calendar_month</span>
+            Tanggal Mulai &amp; Selesai
+          </label>
+<div class="relative flex items-center">
+<input class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-3.5 py-2.5 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all" type="date" value="2024-11-20">
+</div>
+</div>
+<!-- Input 3: Jam Jemput & Durasi -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">schedule</span>
+            Jam &amp; Durasi Sewa
+          </label>
+<div class="grid grid-cols-2 gap-2">
+<select class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-2.5 py-3 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all">
+<option>08:00 WIB</option>
+<option selected="">09:00 WIB</option>
+<option>10:00 WIB</option>
+<option>13:00 WIB</option>
+</select>
+<select class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-2.5 py-3 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all">
+<option>1 Hari</option>
+<option selected="">3 Hari</option>
+<option>5 Hari</option>
+<option>7 Hari</option>
+</select>
+</div>
+</div>
+<!-- Action Button: Search -->
+<div class="flex flex-col justify-end">
+<button class="w-full bg-gradient-to-r from-gold-dark via-gold to-gold-light hover:brightness-105 text-white font-semibold text-sm py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 shadow-gold-glow hover:shadow-lg transition-all duration-200 active:scale-95" type="submit">
+<span class="material-symbols-outlined text-[20px]">search</span>
+<span class="">Cari Mobil Tersedia</span>
+</button>
+</div>
+</form>
+<!-- Dynamic Tour Form -->
+<form class="hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5" id="search-form-tour" onsubmit="event.preventDefault();">
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">map</span>
+            Destinasi Impian
+          </label>
+<select class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-4 py-3 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all">
+<option>Bromo &amp; Kawah Ijen</option>
+<option selected="">Bali Island Experience</option>
+<option>Labuan Bajo &amp; Komodo</option>
+<option>Yogyakarta Cultural Tour</option>
+</select>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">event</span>
+            Perkiraan Keberangkatan
+          </label>
+<input class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-3.5 py-2.5 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all" type="date" value="2024-12-15">
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-xs uppercase tracking-wider font-semibold text-text-muted flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-gold">group</span>
+            Jumlah Peserta
+          </label>
+<select class="w-full bg-[#FAF9F6] border border-outline-border rounded-xl px-3 py-3 text-sm text-text-charcoal focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold focus:bg-white transition-all">
+<option>2 Orang (Pasangan)</option>
+<option selected="">4 - 6 Orang (Keluarga)</option>
+<option>10+ Orang (Rombongan)</option>
+</select>
+</div>
+<div class="flex flex-col justify-end">
+<button class="w-full bg-gradient-to-r from-gold-dark via-gold to-gold-light hover:brightness-105 text-white font-semibold text-sm py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 shadow-gold-glow hover:shadow-lg transition-all duration-200 active:scale-95" type="submit">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span class="">Temukan Paket Tour</span>
+</button>
+</div>
+</form>
+</div>
+</section>
+<!-- SECTION: FLEET SHOWCASE -->
+<section class="py-24 max-w-7xl mx-auto px-6 lg:px-12" id="sewa-mobil">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div class="space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+          Armada Siap Pakai &amp; Berasuransi
+        </div>
+<h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-text-charcoal tracking-tight">Pilihan Armada Terpopuler</h2>
+<p class="text-text-muted text-sm sm:text-base max-w-xl font-normal leading-relaxed">
+          Tersedia unit transmisi otomatis &amp; manual dalam kondisi prima, selalu dibersihkan dan diservis berkala sebelum diserahkan kepada Anda.
+        </p>
+</div>
+<!-- Filter Category Pills -->
+<div class="flex flex-wrap gap-2">
+<button class="fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-gradient-to-r from-gold-dark to-gold text-white shadow-gold-glow transition-all" onclick="filterFleet('all', this)">Semua</button>
+<button class="fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-white text-text-charcoal border border-outline-border hover:border-gold-border hover:text-gold-dark transition-all" onclick="filterFleet('mpv', this)">MPV Keluarga</button>
+<button class="fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-white text-text-charcoal border border-outline-border hover:border-gold-border hover:text-gold-dark transition-all" onclick="filterFleet('suv', this)">SUV Premium</button>
+<button class="fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-white text-text-charcoal border border-outline-border hover:border-gold-border hover:text-gold-dark transition-all" onclick="filterFleet('city', this)">City Car Hemat</button>
+<button class="fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-white text-text-charcoal border border-outline-border hover:border-gold-border hover:text-gold-dark transition-all" onclick="filterFleet('van', this)">Van Rombongan</button>
+</div>
+</div>
+<!-- Fleet Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Vehicle 1: Avanza -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="mpv">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">MPV Favorit</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Unit Tersedia
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A clean studio shot of a modern Toyota All New Avanza in metallic silver, parked on a reflective bright white surface. The vehicle exhibits pristine condition, clear windows, polished alloy wheels, and balanced ambient studio lighting emphasizing high reliability and Indonesian family car comfort." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-bgPzOMW4lUdEaOMgDB-xn2HyGtgaogtyHJtxZrmS6kG_X_3pRREYXBlnwL_dRvKHqw0nS9jDMPbRutaVb2slsj6hG-qPdzz-pw-pkSOFd5K7V1pDK40eWBs-bS3acGxc4hdGastjSzKIVYeQeBrJrEJPnaHm_jl_aqQ_HWEOlA_W2t1e1aBi_xn8yZMkyk1PhnBK-9ThAY_FDsMtdkmGYMS-UR3qCobamR6yNtE">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">Toyota All New Avanza</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tune</span> Automatic / CVT
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">group</span> 7 Penumpang
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">local_gas_station</span> Bensin Hemat
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">ac_unit</span> Double Blower
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Mulai dari</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 350.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20Avanza">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vehicle 2: Innova Zenix Hybrid -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="mpv">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">Executive MPV</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Unit Tersedia
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Professional automobile photograph of a dark bronze Toyota Innova Zenix Hybrid parked outside a modern Indonesian glass corporate office building. Natural daylight reflects off the sculpted body lines, showcasing a quiet, eco-friendly luxury vehicle optimized for business delegations and family tours." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBzRNKZ0rXqECzMkW5eo2ugi1c1jmgs8IV2HFOc1mdTb3k38-7M6bivGpYBwxuYfiu4Jo7xwDvTTdfboTwcON2YeooLQU6Mi90IoeK0jOZCKp3gl5h-JW7ig9vtgjvwuDJjxkhBUwgSMsT77L3v7XGEk0r8RubtLbmZdP50BsNtwnvOCtKZwCpKH6pg9MXgn79cYYUZut3U-YSDWnbwdf9CIutvjy2ghrhpL5ZEfY">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">Innova Zenix Hybrid</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tune</span> Automatic E-CVT
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">group</span> 7 Penumpang (Captain Seat)
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">bolt</span> Hybrid / Senyap
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Mulai dari</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 750.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20Innova%20Zenix">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vehicle 3: Pajero Sport Dakar -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="suv">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">Tangguh 4x4</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Unit Tersedia
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An imposing black Mitsubishi Pajero Sport Dakar 4x4 SUV positioned on a paved mountain overlook in Java during clear morning light. The background reveals mist-veiled green volcanic ranges. Crisp highlights accentuate the chrome grille and high ground clearance suitable for adventurous road trips." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYnjzq-WhHfodU3DcMMl2F8MB5_z0aqGWvit_bBIH_h80zO3US7O2259m9uyKGSvS_bYfA9GREpcGazGx7YYY3dLHw6-bZR-yThVsslb4OD6sFHIpelDawwLQ1UaFrnrdH3nxb2nnsh1szhLHhvFYuZorS6YrnA3VUyODdLLNymE83ttcOOPYatlE6LIl3k-wfWPNoE66_fefXE6MA72gQv3IspGBMsvRDsfBclhI">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">Pajero Sport Dakar</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tune</span> 8-Speed Automatic
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">group</span> 7 Penumpang
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">local_gas_station</span> Diesel VGT
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Mulai dari</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 1.100.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20Pajero%20Sport">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vehicle 4: Toyota Alphard VIP -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="suv">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">VVIP Luxury</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Include Driver VIP
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An immaculate pearl white Toyota Alphard Transformer parked gracefully under the portico of a five-star resort in Bali. Warm tropical afternoon sun casts soft shadows over its executive chrome details. Polished tires, flawless tinted windows, and royal presence symbolize utmost luxury and status." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA919jkkZbNFevPlf3czAy9uvb9OeYpt51xNWONF94PuAeqAp91_ZZaP2WYqBCi8tnX7UXbJZ1fqodDgEzkcl-yo7dtPKq7eL7hZSigiTZYUmxMabtD3k2MiIFj8COJ4MK2Mepxyu6G4eZa1Zg7YP3nx_9YIG6X6ywzv3jj2EFY9ODNNc5LifX_2egHBd_xJIIJ3LLowwA_W7xItiOPXaQ1ScRQlwBN9S28noe-wk">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">Toyota Alphard VIP</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tune</span> Automatic Luxury
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">airline_seat_recline_extra</span> Ottoman Seats
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">badge</span> Driver Berpakaian Rapi
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Termasuk Sopir</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 2.200.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20Alphard">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vehicle 5: HiAce Premio Luxury -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="van">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">Rombongan Nyaman</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Unit Tersedia
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An expansive silver Toyota HiAce Premio Luxury passenger van parked in front of a modern transit terminal in Jakarta. High roofline, pristine clean body, tinted large passenger windows, and comfortable road stance designed for long-distance archipelago touring and corporate team travel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXlC4a251fxlBTregyxVX0RaZJlr5Cy6x4Ejt45HVVQwq8TyRdhe5QFwxWD-THUuhJL9rGLlpgQ_Y9Pd1LZ5vSlgb64ARaAg6Qf86WefPGzXMMi6t18Q6IeHaT12Nu12jeOQuo4wSNDhly_U8wPj1z_DAyt_-c2lHgH6ahwKJ2okSr0Y8w4lWgTZgAmmKRlq5iCm6g1dN7wPsWb43uLlaEtVtjx27zHCwi7STvRC8">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">HiAce Premio Luxury</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">group</span> 12 - 14 Kursi Reclining
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">luggage</span> Bagasi Luas
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tv</span> Karaoke &amp; Audio Set
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Termasuk Driver</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 1.400.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20HiAce%20Premio">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Vehicle 6: Honda Brio RS -->
+<div class="fleet-card group bg-white rounded-2xl border border-outline-border hover:border-gold-border p-5 shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between" data-category="city">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-3 py-0.5 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs font-semibold uppercase tracking-wider">City Car Gesit</span>
+<span class="text-xs text-text-muted flex items-center gap-1.5 font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Unit Tersedia
+            </span>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden bg-[#FAF9F6] border border-outline-border mb-5 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A stylish vibrant yellow Honda Brio RS compact hatchback parked on a clean urban boulevard in Bandung. Contemporary design with glossy black spoiler, sporty two-tone wheels, and crisp lighting that radiates agile city commuting and fuel-efficient holiday travel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlXyVKJ4PJ9Aoud8PWvfzRpwqt4LsO_slktZGsiPTxrMKznbaOJ1O-1_h0T-Gb_MupCpl6uf-qqAqE_Ha1aPvGc8Kpj3ulAzIK-DS4r-fKqQ7cWv53RfrgIfRcLxe2qEFKXqXVAO1GITJBFVFuBK-fqRIrT_ZC4ZJJR6qpCp3BMvd6-xGAnki_VU_Ni450Jz6mk8d-o_QROIIdaVZwS-vR7ApE9-jV7JujNkqJiS0">
+</div>
+<h3 class="font-serif text-2xl font-bold text-text-charcoal mb-2.5">Honda Brio RS</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">tune</span> Automatic CVT
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">group</span> 5 Penumpang
+            </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#FAF9F6] border border-outline-border text-text-charcoal text-xs">
+<span class="material-symbols-outlined text-[14px] text-gold">eco</span> Sangat Irit BBM
+            </span>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-xs text-text-muted block">Mulai dari</span>
+<div class="font-serif text-2xl font-bold text-gold-dark">Rp 300.000 <span class="font-sans text-xs font-normal text-text-muted">/ hari</span></div>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold hover:from-gold hover:to-gold-light text-white text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-gold-glow active:scale-95 transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20ingin%20sewa%20Brio%20RS">
+<span class="">Sewa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: FEATURED ARCHIPELAGO TOUR PACKAGES -->
+<section class="py-24 bg-[#F4F1EA]/60 border-y border-outline-border" id="paket-wisata">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[16px]">flight_takeoff</span>
+          All-Inclusive Tour Destinasi Ikonik
+        </div>
+<h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-text-charcoal tracking-tight">Paket Wisata Favorit Nusantara</h2>
+<p class="text-text-muted text-sm sm:text-base font-normal leading-relaxed">
+          Rencanakan liburan impian tanpa repot menyusun itinerary. Nikmati armada privat ber-AC, hotel terverifikasi, dan pemandu lokal bersertifikat.
+        </p>
+</div>
+<!-- Bento Grid Tour Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Tour 1: Bromo Sunrise -->
+<div class="group bg-white rounded-2xl border border-outline-border hover:border-gold-border overflow-hidden shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Majestic golden sunrise breaking over Mount Bromo and Mount Semeru volcanic calderas in East Java. Ethereal sea of mist drifting through the valley below glowing orange clouds. In the foreground, a classic 4x4 off-road safari jeep stands ready for adventure in crisp early morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0vthdsrPqrryK0LnTYT7NbBa-xdL2liJgkD0xU_NMwAAMH1qqC9djan5BA4Tg7e1MibdPh3hyrezOCSTHcT7aZ8fVfjID7UXgtAEBsCARlJVyxAnXdNjHZrxTBqusYEheQq4-1dibxJL-yENkdyoKn7FUx5N4BCD0Ev3sZ5yZpu7UU_kyTsbPPV8-cNHZkJDZclssONHHqrQ-QlL0528FZGWbReVJaIDHHmLWr7o">
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-text-charcoal text-xs font-bold flex items-center gap-1 shadow-sm border border-outline-border">
+<span class="material-symbols-outlined text-[14px] text-gold">schedule</span> 1 Hari (Midnight)
+              </div>
+</div>
+<div class="p-5 space-y-2.5">
+<div class="text-xs uppercase tracking-wider text-gold-dark font-semibold">Malang / Surabaya Departure</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal group-hover:text-gold-dark transition-colors">Bromo Midnight &amp; Sunrise Tour</h3>
+<p class="text-xs text-text-muted line-clamp-2 leading-relaxed">
+                Penanjakan Sunrise Viewpoint, Kawah Bromo aktif, Pasir Berbisik, dan Bukit Teletubbies.
+              </p>
+<!-- Inclusions -->
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Jeep 4x4 Privat</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Tiket TNBTS</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Guide &amp; Masker</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-[11px] text-text-muted block">Harga / Pax</span>
+<div class="font-serif text-xl font-bold text-gold-dark">Rp 450.000</div>
+</div>
+<a class="px-3.5 py-1.5 rounded-full bg-[#FAF9F6] hover:bg-gold-soft text-text-charcoal hover:text-gold-dark border border-outline-border hover:border-gold-border text-xs font-semibold uppercase tracking-wider transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20tertarik%20Paket%20Bromo">
+                Detail Paket
+              </a>
+</div>
+</div>
+</div>
+<!-- Tour 2: Pesona Bali -->
+<div class="group bg-white rounded-2xl border border-outline-border hover:border-gold-border overflow-hidden shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Iconic Ulun Danu Beratan water temple on a serene lake in Bali surrounded by misty green hills and vibrant flowering gardens. Peaceful reflecting water mirrors the historical multi-tiered Balinese meru shrine beneath soft morning sunlight, radiating calm tropical vacation charm." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCndcieWoHg5wmUfkQApWOApaIvdSmt_2JD_EqH02Z6GR2JOB4QP_0zm24OavWEHA6hmzdVuys3vljyr-0_ZzgMLkI8T60f2XQ0GUaQ29Ry04EcXWPhjIUcC9XXJboR1NKVrmpoVJm1gHbK1XfQDUTGALM0ruGSiq6-pJV9T7_2xw4YQhl7bkxXNL2Pilll9MnLtr0uaqD6k8fGbJkUhtZ5EQtVfFVvuHSGNsHqMpw">
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-text-charcoal text-xs font-bold flex items-center gap-1 shadow-sm border border-outline-border">
+<span class="material-symbols-outlined text-[14px] text-gold">schedule</span> 3 Hari 2 Malam
+              </div>
+</div>
+<div class="p-5 space-y-2.5">
+<div class="text-xs uppercase tracking-wider text-gold-dark font-semibold">Bali Island Tour</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal group-hover:text-gold-dark transition-colors">Pesona Bali Romantic &amp; Family</h3>
+<p class="text-xs text-text-muted line-clamp-2 leading-relaxed">
+                Eksplorasi Ubud, Kintamani, Pantai Melasti, Tari Kecak Uluwatu, dan sunset dinner di Jimbaran.
+              </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Mobil Privat + BBM</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Hotel Bintang 4</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Makan 3x Sehari</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-[11px] text-text-muted block">Harga / Pax</span>
+<div class="font-serif text-xl font-bold text-gold-dark">Rp 1.850.000</div>
+</div>
+<a class="px-3.5 py-1.5 rounded-full bg-[#FAF9F6] hover:bg-gold-soft text-text-charcoal hover:text-gold-dark border border-outline-border hover:border-gold-border text-xs font-semibold uppercase tracking-wider transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20tertarik%20Paket%20Bali">
+                Detail Paket
+              </a>
+</div>
+</div>
+</div>
+<!-- Tour 3: Labuan Bajo Liveaboard -->
+<div class="group bg-white rounded-2xl border border-outline-border hover:border-gold-border overflow-hidden shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A magnificent wooden Phinisi yacht sailing gently across crystal-clear turquoise waters in Komodo National Park, Labuan Bajo. Rugged volcanic islands with dramatic savannah hills rise majestically in the background beneath a vibrant tropical blue sky with gentle sea breeze." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGSPLAiS0uRk8L1JQifhzhl3lXyKmyAn79D7r6Vnq1SdFZFpONzAsm9X2anMeOkWkpOG2hLC904nD1hL28pYRYZ7rfI2so0YnkRpW8XozZn9z3sEoGLonQLSRd30n3n4bOkWvBKNmp1IMChXvV-eBYlixG9tc1PjQ3nYLybcAzvxVQo0SAJ0Bj0YvP34ri50PSZNQKOfiyyL7HKYo1p2KdVfw5_FKbk5Gv_dtTX70">
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-text-charcoal text-xs font-bold flex items-center gap-1 shadow-sm border border-outline-border">
+<span class="material-symbols-outlined text-[14px] text-gold">schedule</span> 3 Hari 2 Malam
+              </div>
+</div>
+<div class="p-5 space-y-2.5">
+<div class="text-xs uppercase tracking-wider text-gold-dark font-semibold">Labuan Bajo Archipelago</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal group-hover:text-gold-dark transition-colors">Labuan Bajo &amp; Komodo Sailing</h3>
+<p class="text-xs text-text-muted line-clamp-2 leading-relaxed">
+                Pulau Padar, Pink Beach, Manta Point Snorkeling, Pulau Komodo Ranger, dan Taka Makassar.
+              </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Kabin AC Phinisi</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Alat Snorkeling</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Dokumentasi Drone</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-[11px] text-text-muted block">Harga / Pax</span>
+<div class="font-serif text-xl font-bold text-gold-dark">Rp 2.950.000</div>
+</div>
+<a class="px-3.5 py-1.5 rounded-full bg-[#FAF9F6] hover:bg-gold-soft text-text-charcoal hover:text-gold-dark border border-outline-border hover:border-gold-border text-xs font-semibold uppercase tracking-wider transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20tertarik%20Paket%20Labuan%20Bajo">
+                Detail Paket
+              </a>
+</div>
+</div>
+</div>
+<!-- Tour 4: Yogyakarta Heritage -->
+<div class="group bg-white rounded-2xl border border-outline-border hover:border-gold-border overflow-hidden shadow-luxury hover:shadow-luxury-hover transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intricate stone carvings and stupas of the ancient Borobudur Temple surrounded by lush tropical palms and distant volcanic mountains in Central Java. Soft golden morning light bathes the UNESCO heritage landmark, radiating spiritual grandeur, peace, and deep cultural richness." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFTnpmir3DdN99YZ8BpuUXUBisZ8V99v54ByRlFl06YFAt1wsOX-NtOMCEO5EySPZdO-Uea-Ha9aZQizTHv7RXOlDT5wO24Ra9ARfbKfryaO3VLl4nah9PamVEqIdwqgojpxjgF5-Errqdf7Rob5gjsHgFzsgJ9uTu2nRFTbAkiUVQ7u9Go4fRZJrB6cfvV2qME0IRKzTV6X8eaTbbM6QpvK33eOFV5tjMGdw13i4">
+<div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-white/95 backdrop-blur-sm text-text-charcoal text-xs font-bold flex items-center gap-1 shadow-sm border border-outline-border">
+<span class="material-symbols-outlined text-[14px] text-gold">schedule</span> 2 Hari 1 Malam
+              </div>
+</div>
+<div class="p-5 space-y-2.5">
+<div class="text-xs uppercase tracking-wider text-gold-dark font-semibold">Yogyakarta Istimewa</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal group-hover:text-gold-dark transition-colors">Jogja Heritage &amp; Merapi Lava Tour</h3>
+<p class="text-xs text-text-muted line-clamp-2 leading-relaxed">
+                Candi Borobudur, Candi Prambanan, Lava Tour Jeep Merapi, dan kuliner khas Malioboro.
+              </p>
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Jeep Merapi 4x4</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Tiket Semua Candi</span>
+<span class="text-[11px] font-medium px-2 py-0.5 rounded bg-[#FAF9F6] border border-outline-border text-text-charcoal">Driver &amp; BBM</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<div class="pt-4 border-t border-outline-border flex items-center justify-between">
+<div>
+<span class="text-[11px] text-text-muted block">Harga / Pax</span>
+<div class="font-serif text-xl font-bold text-gold-dark">Rp 850.000</div>
+</div>
+<a class="px-3.5 py-1.5 rounded-full bg-[#FAF9F6] hover:bg-gold-soft text-text-charcoal hover:text-gold-dark border border-outline-border hover:border-gold-border text-xs font-semibold uppercase tracking-wider transition-all" href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Trans,%20saya%20tertarik%20Paket%20Jogja">
+                Detail Paket
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: WHY CHOOSE US (4 Pillars) -->
+<section class="py-24 max-w-7xl mx-auto px-6 lg:px-12" id="keunggulan">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+          Standar Pelayanan Eksekutif
+        </div>
+<h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-text-charcoal leading-snug tracking-tight">
+          Kenapa Ribuan Pelanggan Memilih <span class="text-gold italic font-normal">Nusantara Trans?</span>
+</h2>
+<p class="text-text-muted text-sm sm:text-base leading-relaxed font-normal">
+          Kami memahami bahwa kenyamanan, ketepatan waktu, dan kepastian armada adalah prioritas utama setiap perjalanan Anda, baik untuk urusan dinas maupun rekreasi keluarga tercinta.
+        </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-gold-dark font-bold hover:underline text-sm uppercase tracking-wider" href="https://wa.me/6281234567890">
+<span class="">Pelajari Syarat &amp; Kebijakan Rental</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Pillar 1 -->
+<div class="p-6 rounded-2xl bg-white border border-outline-border hover:border-gold-border shadow-luxury hover:shadow-luxury-hover transition-all duration-300">
+<div class="w-12 h-12 rounded-xl bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">clean_hands</span>
+</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal mb-2">Unit 100% Bersih &amp; Prima</h3>
+<p class="text-xs sm:text-sm text-text-muted leading-relaxed font-normal">
+            Mobil dicuci bersih, wangi, dan melalui inspeksi 24 titik mesin sebelum diantarkan ke tangan Anda.
+          </p>
+</div>
+<!-- Pillar 2 -->
+<div class="p-6 rounded-2xl bg-white border border-outline-border hover:border-gold-border shadow-luxury hover:shadow-luxury-hover transition-all duration-300">
+<div class="w-12 h-12 rounded-xl bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">badge</span>
+</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal mb-2">Driver Ramah &amp; Hafal Rute</h3>
+<p class="text-xs sm:text-sm text-text-muted leading-relaxed font-normal">
+            Didukung driver profesional berlisensi, berseragam rapi, tidak merokok di dalam unit, dan hafal jalur bebas macet.
+          </p>
+</div>
+<!-- Pillar 3 -->
+<div class="p-6 rounded-2xl bg-white border border-outline-border hover:border-gold-border shadow-luxury hover:shadow-luxury-hover transition-all duration-300">
+<div class="w-12 h-12 rounded-xl bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">payments</span>
+</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal mb-2">Harga Jujur &amp; Transparan</h3>
+<p class="text-xs sm:text-sm text-text-muted leading-relaxed font-normal">
+            Tidak ada biaya tersembunyi (hidden fees). Seluruh rincian biaya sewa dan opsi include tertulis jelas pada invoice resmi.
+          </p>
+</div>
+<!-- Pillar 4 -->
+<div class="p-6 rounded-2xl bg-white border border-outline-border hover:border-gold-border shadow-luxury hover:shadow-luxury-hover transition-all duration-300">
+<div class="w-12 h-12 rounded-xl bg-gold-soft border border-gold-border flex items-center justify-center text-gold-dark mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">published_with_changes</span>
+</div>
+<h3 class="font-serif text-xl font-bold text-text-charcoal mb-2">Garansi Unit Pengganti</h3>
+<p class="text-xs sm:text-sm text-text-muted leading-relaxed font-normal">
+            Jika terjadi kendala teknis tak terduga, tim support kami segera mengirimkan unit pengganti setara dalam waktu singkat.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: SOCIAL PROOF / REVIEWS -->
+<section class="py-24 bg-[#F4F1EA]/60 border-t border-outline-border" id="testimoni">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-soft border border-gold-border text-gold-dark text-xs uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[16px]">rate_review</span>
+          Ulasan Pengguna Asli
+        </div>
+<h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-text-charcoal tracking-tight">Apa Kata Klien Kami?</h2>
+<p class="text-text-muted text-sm sm:text-base font-normal">
+          Kepercayaan dari ribuan keluarga, profesional, dan institusi yang telah menjelajahi nusantara bersama kami.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-white p-7 rounded-2xl border border-outline-border hover:border-gold-border shadow-luxury flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-gold">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-sm sm:text-base text-text-charcoal italic leading-relaxed">
+              "Sewa Innova Zenix untuk kunjungan dinas kementerian di Bali selama 4 hari. Driver Mas Wayan sangat ramah, selalu on-time, dan mobilnya wangi seperti keluar dari showroom. Sangat rekomen untuk level eksekutif!"
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-border flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-gold-soft border border-gold-border text-gold-dark flex items-center justify-center font-bold text-xs uppercase">
+              BW
+            </div>
+<div>
+<h4 class="text-sm font-bold text-text-charcoal">Bambang Wibisono</h4>
+<p class="text-xs text-text-muted">Corporate Director, Jakarta</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-white p-7 rounded-2xl border border-outline-border hover:border-gold-border shadow-luxury flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-gold">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-sm sm:text-base text-text-charcoal italic leading-relaxed">
+              "Paket Tour Bromo Midnight kemarin juara banget! Jeep datang tepat waktu di hotel Malang, guide mas Rizky sigap bantuin foto keluarga di Pasir Berbisik. Hasil dokumentasinya keren-keren. Liburan tanpa pusing!"
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-border flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-gold-soft border border-gold-border text-gold-dark flex items-center justify-center font-bold text-xs uppercase">
+              SA
+            </div>
+<div>
+<h4 class="text-sm font-bold text-text-charcoal">dr. Sarah Anindita</h4>
+<p class="text-xs text-text-muted">Liburan Keluarga, Surabaya</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-white p-7 rounded-2xl border border-outline-border hover:border-gold-border shadow-luxury flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex text-gold">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-sm sm:text-base text-text-charcoal italic leading-relaxed">
+              "Proses lepas kunci Avanza di Bandara YIA Yogyakarta super gampang. Verifikasi KTP cepat, serah terima kunci cuma 10 menit langsung bisa jalan ke Borobudur. CS WhatsApp ramah dan fast respon walau dihubungi malam."
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-border flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-gold-soft border border-gold-border text-gold-dark flex items-center justify-center font-bold text-xs uppercase">
+              DA
+            </div>
+<div>
+<h4 class="text-sm font-bold text-text-charcoal">Dimas Anggoro</h4>
+<p class="text-xs text-text-muted">Solo Traveler, Bandung</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION BANNER -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 -mb-16 relative z-20">
+<div class="bg-[#1E293B] text-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-gold/30">
+<!-- Champagne Gold Accent Glow -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 bg-gold/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center justify-between">
+<div class="lg:col-span-8 space-y-3">
+<span class="px-3.5 py-1 rounded-full bg-gold/20 border border-gold/40 text-gold-light text-xs font-semibold uppercase tracking-wider inline-block">
+            Konsultasi Rute Gratis
+          </span>
+<h2 class="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-white tracking-tight">
+            Butuh Rekomendasi Sewa Mobil atau Custom Rute Wisata?
+          </h2>
+<p class="text-sm sm:text-base text-slate-300 max-w-xl font-normal leading-relaxed">
+            Tim support 24 jam kami siap menyusun estimasi rute paling efisien, ketersediaan unit terbaru, dan penawaran harga terbaik untuk kebutuhan Anda.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-end">
+<a class="px-6 py-4 rounded-xl bg-gradient-to-r from-gold-dark via-gold to-gold-light hover:brightness-105 text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-gold-glow active:scale-95 transition-all text-center" href="https://wa.me/6281234567890" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">Hubungi Admin WhatsApp</span>
+</a>
+<a class="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2 border border-white/20 transition-all text-center" href="tel:+6281234567890">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span class="">Telepon Call Center</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- CLEAN ELEGANT LIGHT FOOTER -->
+<footer class="bg-[#FAF9F6] text-text-charcoal pt-32 pb-12 border-t border-outline-border">
+<div class="w-full px-6 lg:px-12 max-w-7xl mx-auto space-y-12">
+<!-- Top Columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+<!-- Brand Info -->
+<div class="lg:col-span-2 space-y-4">
+<div class="flex items-center gap-3.5">
+<div class="w-10 h-10 rounded-full bg-gradient-to-tr from-gold-dark to-gold-light flex items-center justify-center text-white shadow-gold-glow">
+<span class="material-symbols-outlined text-[22px]">directions_car</span>
+</div>
+<span class="font-serif text-2xl font-bold text-text-charcoal">Nusantara Trans</span>
+</div>
+<p class="text-xs sm:text-sm text-text-muted max-w-sm leading-relaxed">
+          Penyedia jasa rental mobil eksekutif, sewa kendaraan rombongan, dan paket wisata nusantara resmi berbadan hukum PT Nusantara Trans Indonesia.
+        </p>
+<div class="flex items-center gap-2.5 pt-2 text-text-charcoal">
+<span class="text-xs bg-white border border-outline-border px-3 py-1.5 rounded-full font-medium">Kemenkumham Terdaftar</span>
+<span class="text-xs bg-white border border-outline-border px-3 py-1.5 rounded-full font-medium">Anggota ASITA</span>
+</div>
+</div>
+<!-- Links Group 1 -->
+<div class="space-y-3">
+<h4 class="font-serif text-lg font-bold text-text-charcoal">Layanan Kami</h4>
+<ul class="space-y-2 text-xs sm:text-sm text-text-muted">
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#sewa-mobil">Sewa Mobil</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#paket-wisata">Paket Wisata</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#sewa-mobil">Lepas Kunci</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#sewa-mobil">Dengan Sopir</a></li>
+</ul>
+</div>
+<!-- Links Group 2 -->
+<div class="space-y-3">
+<h4 class="font-serif text-lg font-bold text-text-charcoal">Informasi &amp; Bantuan</h4>
+<ul class="space-y-2 text-xs sm:text-sm text-text-muted">
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#">Syarat &amp; Ketentuan</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#">Kebijakan Privasi</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#">Kontak 24/7</a></li>
+<li class=""><a class="hover:text-gold-dark transition-colors duration-200" href="#testimoni">Testimoni Klien</a></li>
+</ul>
+</div>
+<!-- Office Branch Network -->
+<div class="space-y-3">
+<h4 class="font-serif text-lg font-bold text-text-charcoal">Kantor Cabang</h4>
+<ul class="space-y-2 text-xs sm:text-sm text-text-muted">
+<li class=""><span class="font-semibold text-text-charcoal">Jakarta:</span> Cengkareng / Bandara Soetta</li>
+<li class=""><span class="font-semibold text-text-charcoal">Bali:</span> Jl. Bypass Ngurah Rai No. 88, Tuban</li>
+<li class=""><span class="font-semibold text-text-charcoal">Yogyakarta:</span> Jl. Malioboro No. 42</li>
+<li class=""><span class="font-semibold text-text-charcoal">Surabaya:</span> Juanda Airport Area</li>
+</ul>
+</div>
+</div>
+<!-- Payment Gateways & Secure Channels -->
+<div class="pt-8 border-t border-outline-border flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="text-xs text-text-muted">Metode Pembayaran Resmi:</span>
+<div class="flex flex-wrap gap-2 text-xs font-semibold">
+<span class="px-2.5 py-1 rounded bg-white border border-outline-border text-text-charcoal">Bank BCA</span>
+<span class="px-2.5 py-1 rounded bg-white border border-outline-border text-text-charcoal">Mandiri</span>
+<span class="px-2.5 py-1 rounded bg-white border border-outline-border text-text-charcoal">Bank BRI</span>
+<span class="px-2.5 py-1 rounded bg-white border border-outline-border text-text-charcoal">QRIS</span>
+</div>
+</div>
+<!-- Copyright text -->
+<p class="text-xs text-text-muted">
+        © 2024 Nusantara Trans Indonesia. Seluruh hak cipta dilindungi.
+      </p>
+</div>
+</div>
+</footer>
+<!-- Micro-interactions Script -->
+<script>
+  function switchSearchTab(mode) {
+    const tabRental = document.getElementById('tab-rental');
+    const tabTour = document.getElementById('tab-tour');
+    const formRental = document.getElementById('search-form-rental');
+    const formTour = document.getElementById('search-form-tour');
+
+    if (mode === 'rental') {
+      tabRental.className = "flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold text-white text-sm font-semibold shadow-gold-glow transition-all duration-200";
+      tabTour.className = "flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FAF9F6] text-text-charcoal hover:bg-gold-soft hover:text-gold-dark text-sm font-medium border border-outline-border transition-all duration-200";
+      formRental.classList.remove('hidden');
+      formRental.classList.add('grid');
+      formTour.classList.add('hidden');
+      formTour.classList.remove('grid');
+    } else {
+      tabTour.className = "flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold text-white text-sm font-semibold shadow-gold-glow transition-all duration-200";
+      tabRental.className = "flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FAF9F6] text-text-charcoal hover:bg-gold-soft hover:text-gold-dark text-sm font-medium border border-outline-border transition-all duration-200";
+      formTour.classList.remove('hidden');
+      formTour.classList.add('grid');
+      formRental.classList.add('hidden');
+      formRental.classList.remove('grid');
+    }
+  }
+
+  function toggleServiceMode(mode) {
+    const toggleDriver = document.getElementById('toggle-driver');
+    const toggleSelf = document.getElementById('toggle-self');
+
+    if (mode === 'driver') {
+      toggleDriver.className = "px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gold-dark shadow-xs border border-outline-border-gold transition-all duration-150";
+      toggleSelf.className = "px-4 py-1.5 rounded-full text-xs font-medium text-text-muted hover:text-text-charcoal transition-all duration-150";
+    } else {
+      toggleSelf.className = "px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gold-dark shadow-xs border border-outline-border-gold transition-all duration-150";
+      toggleDriver.className = "px-4 py-1.5 rounded-full text-xs font-medium text-text-muted hover:text-text-charcoal transition-all duration-150";
+    }
+  }
+
+  function filterFleet(category, activeBtn) {
+    const buttons = document.querySelectorAll('.fleet-filter-btn');
+    buttons.forEach(btn => {
+      btn.className = "fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-white text-text-charcoal border border-outline-border hover:border-gold-border hover:text-gold-dark transition-all";
+    });
+    activeBtn.className = "fleet-filter-btn px-4 py-2 rounded-full text-xs uppercase tracking-wider font-semibold bg-gradient-to-r from-gold-dark to-gold text-white shadow-gold-glow transition-all";
+
+    const cards = document.querySelectorAll('.fleet-card');
+    cards.forEach(card => {
+      if (category === 'all' || card.getAttribute('data-category') === category) {
+        card.style.display = "flex";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+
+
+
+
+</body></html>

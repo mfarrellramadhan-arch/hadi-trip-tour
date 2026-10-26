@@ -1,0 +1,8 @@
+{
+  "name": "Nusantara Trans",
+  "description": "Rental Mobil & Paket Wisata Terpercaya di Indonesia dengan armada prima dan supir bersertifikat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
