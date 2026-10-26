@@ -101,7 +101,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#F8F9FA] dark:bg-[#0E1217] text-[#1E293B] dark:text-[#F1F5F9] transition-colors duration-250 selection:bg-[#C5A059]/25 selection:text-[#9E7B1D] dark:selection:text-[#E5C578]">
+    <div className="min-h-screen bg-[#F8F9FA] dark:bg-[#0E1217] text-[#1E293B] dark:text-[#F1F5F9] transition-colors duration-250 selection:bg-[#EFE2B0] selection:text-[#705007] dark:selection:bg-[#C5A059]/30 dark:selection:text-[#E5C578]">
       {/* Top Application Bar */}
       <Navbar
         isDarkMode={isDarkMode}

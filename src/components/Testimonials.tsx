@@ -27,22 +27,22 @@ export const Testimonials: React.FC = () => {
 
   return (
     <section
-      className="py-24 bg-[#F4F1EA]/60 dark:bg-[#12161A] border-t border-[#EAE6DF] dark:border-[#282E38] transition-colors duration-250"
+      className="py-24 bg-[#F5F2EA]/60 dark:bg-[#161B21] border-y border-[#E9DFCE] dark:border-[#2A313A] transition-colors duration-250"
       id="testimoni"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FBF7EC] dark:bg-[#262015] border border-[#E9DCB8] dark:border-[#544626] text-[#9E7B1D] dark:text-[#C5A059] text-xs uppercase tracking-wider font-semibold">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FCF9EE] dark:bg-[#1E232A] border border-[#EFE2B0] dark:border-[#3D3728] text-[#705007] dark:text-[#C5A059] text-xs uppercase tracking-wider font-semibold">
             <span className="material-symbols-outlined text-[16px]">
               rate_review
             </span>
             Ulasan Pengguna Asli
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#1E293B] dark:text-[#F1F5F9] tracking-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#0F172A] dark:text-[#F1F5F9] tracking-tight">
             Apa Kata Klien Kami?
           </h2>
-          <p className="text-[#64748B] dark:text-[#94A3B8] text-sm sm:text-base font-normal">
+          <p className="text-[#475569] dark:text-[#94A3B8] text-sm sm:text-base font-normal">
             Kepercayaan dari ribuan keluarga, profesional, dan institusi yang telah menjelajahi nusantara bersama kami.
           </p>
         </div>
@@ -52,11 +52,11 @@ export const Testimonials: React.FC = () => {
           {reviews.map((rev, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-[#181C22] p-7 rounded-2xl border border-[#EAE6DF] dark:border-[#282E38] hover:border-[#E4D4A8] dark:hover:border-[#C5A059]/50 shadow-[0_10px_30px_-10px_rgba(30,41,59,0.05)] dark:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.5)] hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+              className="bg-white dark:bg-[#1E232A] p-7 rounded-2xl border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-[0_2px_14px_rgba(30,41,59,0.04),0_0_0_1px_rgba(233,223,206,0.75)] dark:shadow-subtle-card hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
             >
               <div className="space-y-4">
                 {/* 5 Stars */}
-                <div className="flex text-[#C5A059] gap-0.5">
+                <div className="flex text-amber-400 dark:text-[#C5A059] gap-0.5">
                   {[...Array(5)].map((_, i) => (
                     <span
                       key={i}
@@ -68,18 +68,18 @@ export const Testimonials: React.FC = () => {
                   ))}
                 </div>
 
-                <p className="text-sm sm:text-base text-[#1E293B] dark:text-[#F1F5F9] italic leading-relaxed font-normal">
+                <p className="text-sm sm:text-base text-[#334155] dark:text-[#CBD5E1] italic leading-relaxed font-normal">
                   "{rev.comment}"
                 </p>
               </div>
 
               {/* Author Info */}
-              <div className="pt-6 mt-6 border-t border-[#EAE6DF] dark:border-[#282E38] flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#FBF7EC] dark:bg-[#262015] border border-[#E9DCB8] dark:border-[#544626] text-[#9E7B1D] dark:text-[#C5A059] flex items-center justify-center font-bold text-xs uppercase shrink-0">
+              <div className="pt-6 mt-6 border-t border-[#EFE9DE] dark:border-[#2A313A] flex items-center gap-3">
+                <div className="w-11 h-11 rounded-full bg-[#F7F2D8] dark:bg-[#161B21] border border-[#E4CE83] dark:border-[#3D3728] text-[#705007] dark:text-[#C5A059] flex items-center justify-center font-bold text-sm shrink-0 font-outfit">
                   {rev.initials}
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-[#1E293B] dark:text-[#F1F5F9]">
+                  <h4 className="text-sm font-bold text-[#0F172A] dark:text-[#F1F5F9] font-outfit">
                     {rev.name}
                   </h4>
                   <p className="text-xs text-[#64748B] dark:text-[#94A3B8]">

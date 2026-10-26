@@ -64,25 +64,25 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 animate-fadeIn">
-      <div className="bg-white dark:bg-[#181C22] text-[#1E293B] dark:text-[#F1F5F9] rounded-3xl border border-[#E4D4A8] dark:border-[#4E4228] shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative">
+      <div className="bg-white dark:bg-[#181C22] text-[#0F172A] dark:text-[#F1F5F9] rounded-3xl border border-[#E9DFCE] dark:border-[#2A313A] shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative">
         {/* Close Button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-5 right-5 w-9 h-9 rounded-full bg-[#FAF9F6] dark:bg-[#1E232B] hover:bg-[#FBF7EC] dark:hover:bg-[#262015] border border-[#EAE6DF] dark:border-[#282E38] text-[#64748B] dark:text-[#94A3B8] hover:text-[#1E293B] dark:hover:text-[#F1F5F9] flex items-center justify-center transition-colors cursor-pointer"
+          className="absolute top-5 right-5 w-9 h-9 rounded-full bg-[#FAF9F5] dark:bg-[#1E232B] hover:bg-[#FCF9EE] dark:hover:bg-[#262015] border border-[#E9DFCE] dark:border-[#282E38] text-[#64748B] dark:text-[#94A3B8] hover:text-[#0F172A] dark:hover:text-[#F1F5F9] flex items-center justify-center transition-colors cursor-pointer"
         >
           <span className="material-symbols-outlined text-[20px]">close</span>
         </button>
 
-        <div className="border-b border-[#EAE6DF] dark:border-[#282E38] pb-4 mb-6">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF7EC] dark:bg-[#262015] border border-[#E9DCB8] dark:border-[#544626] text-[#9E7B1D] dark:text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-2">
+        <div className="border-b border-[#EFE9DE] dark:border-[#282E38] pb-4 mb-6">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FCF9EE] dark:bg-[#262015] border border-[#EFE2B0] dark:border-[#544626] text-[#705007] dark:text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-2">
             <span className="material-symbols-outlined text-[15px]">route</span>
             Custom Itinerary Builder
           </div>
-          <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#1E293B] dark:text-[#F1F5F9]">
+          <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#0F172A] dark:text-[#F1F5F9]">
             Rancang Custom Rute Wisata Impian
           </h3>
-          <p className="text-xs sm:text-sm text-[#64748B] dark:text-[#94A3B8] mt-1">
+          <p className="text-xs sm:text-sm text-[#475569] dark:text-[#94A3B8] mt-1">
             Bebas pilih destinasi, durasi liburan, dan tipe armada. Tim konsultan kami akan menyusun rute paling efisien dengan harga resmi.
           </p>
         </div>
@@ -90,7 +90,7 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
         <form onSubmit={handleSendCustomTour} className="space-y-6">
           {/* Destination Selector */}
           <div>
-            <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-2">
+            <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-2">
               1. Pilih Destinasi yang Ingin Dikunjungi (Bisa Multi-Pilihan)
             </label>
             <div className="flex flex-wrap gap-2">
@@ -111,8 +111,8 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
                     onClick={() => toggleDestination(dest)}
                     className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
                       selected
-                        ? 'bg-gradient-to-r from-[#9E7B1D] to-[#C5A059] text-white dark:text-[#0E1217] shadow-xs'
-                        : 'bg-[#FAF9F6] dark:bg-[#1E232B] text-[#1E293B] dark:text-[#94A3B8] border border-[#EAE6DF] dark:border-[#282E38] hover:border-[#C5A059]'
+                        ? 'bg-gradient-to-r from-[#D4AF37] to-[#B8860B] text-white shadow-xs'
+                        : 'bg-[#FAF9F5] dark:bg-[#1E232B] text-[#334155] dark:text-[#94A3B8] border border-[#E9DFCE] dark:border-[#282E38] hover:border-[#B8860B]'
                     }`}
                   >
                     {selected ? '✓ ' : '+ '}
@@ -126,13 +126,13 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
           {/* Duration & Date */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1.5">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1.5">
                 2. Estimasi Durasi Perjalanan
               </label>
               <select
                 value={duration}
                 onChange={(e) => setDuration(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               >
                 <option>1 Hari (Day Tour / Midnight)</option>
                 <option>2 Hari 1 Malam</option>
@@ -144,14 +144,14 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1.5">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1.5">
                 3. Prakiraan Tanggal Berangkat
               </label>
               <input
                 type="date"
                 value={startDate}
                 onChange={(e) => setStartDate(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               />
             </div>
           </div>
@@ -159,13 +159,13 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
           {/* Vehicle & Hotel Tier */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1.5">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1.5">
                 4. Preferensi Armada
               </label>
               <select
                 value={vehiclePref}
                 onChange={(e) => setVehiclePref(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               >
                 <option>Toyota All New Avanza</option>
                 <option>Innova Zenix Hybrid (Favorit)</option>
@@ -176,13 +176,13 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1.5">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1.5">
                 5. Jumlah Peserta (Pax)
               </label>
               <select
                 value={paxCount}
                 onChange={(e) => setPaxCount(Number(e.target.value))}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               >
                 <option value={2}>2 Orang (Pasangan)</option>
                 <option value={4}>4 Orang (Keluarga Kecil)</option>
@@ -194,13 +194,13 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1.5">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1.5">
                 6. Opsi Hotel / Penginapan
               </label>
               <select
                 value={hotelTier}
                 onChange={(e) => setHotelTier(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               >
                 <option>Hotel Bintang 4 (Rekomendasi)</option>
                 <option>Resort Bintang 5 / Luxury Villa</option>
@@ -211,9 +211,9 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
           </div>
 
           {/* User Details */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-[#EAE6DF] dark:border-[#282E38]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-[#EFE9DE] dark:border-[#282E38]">
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1">
                 Nama Lengkap *
               </label>
               <input
@@ -222,12 +222,12 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
                 placeholder="Contoh: dr. Sarah Anindita"
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               />
             </div>
 
             <div>
-              <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1">
+              <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1">
                 Nomor WhatsApp *
               </label>
               <input
@@ -236,13 +236,13 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
                 placeholder="Contoh: 081234567890"
                 value={userPhone}
                 onChange={(e) => setUserPhone(e.target.value)}
-                className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+                className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
               />
             </div>
           </div>
 
           <div>
-            <label className="text-xs uppercase tracking-wider font-semibold text-[#64748B] dark:text-[#94A3B8] block mb-1">
+            <label className="text-xs uppercase tracking-wider font-semibold text-[#475569] dark:text-[#94A3B8] block mb-1">
               Catatan Khusus / Keinginan Spesifik
             </label>
             <textarea
@@ -250,7 +250,7 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
               placeholder="Contoh: Ada anak kecil dan orang tua, butuh rute santai tanpa trekking berat, request kuliner halal, dll."
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              className="w-full bg-[#FAF9F6] dark:bg-[#1E232B] border border-[#EAE6DF] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#1E293B] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
+              className="w-full bg-[#FAF9F5] dark:bg-[#161B21] border border-[#E5DEC3] dark:border-[#282E38] rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-[#0F172A] dark:text-[#F1F5F9] focus:outline-none focus:border-[#C5A059]"
             />
           </div>
 
@@ -261,7 +261,7 @@ Mohon bantu susun estimasi itinerary harian dan penawaran harga terbaik. Terima 
           {/* Action Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-[#9E7B1D] via-[#C5A059] to-[#E5C578] hover:brightness-105 text-white dark:text-[#0E1217] font-semibold text-sm py-4 px-6 rounded-xl flex items-center justify-center gap-2 shadow-[0_4px_14px_0_rgba(197,155,39,0.3)] hover:shadow-lg transition-all active:scale-95 cursor-pointer"
+            className="w-full bg-gradient-to-r from-[#D4AF37] to-[#B8860B] hover:from-[#C59E30] hover:to-[#9E7307] text-white font-semibold text-sm py-4 px-6 rounded-xl flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all active:scale-95 cursor-pointer"
           >
             <span className="material-symbols-outlined text-[20px]">send</span>
             <span>Kirim Rancangan Rute ke WhatsApp Konsultan</span>
