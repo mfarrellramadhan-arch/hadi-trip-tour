@@ -86,7 +86,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
     }
     setFormError('');
 
-    const message = `Halo Nusantara Trans, saya ingin reservasi armada sewa:
+    const message = `Halo Hadi Trip, saya ingin reservasi armada sewa:
 *Armada*: ${vehicle.name} (${vehicle.categoryLabel})
 *Layanan*: ${withDriver ? 'Dengan Sopir' : 'Lepas Kunci'}
 *Durasi*: ${days} Hari (${startDate} s/d ${endDate})

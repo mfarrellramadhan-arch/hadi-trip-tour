@@ -79,7 +79,6 @@ export const Hero: React.FC = () => {
                 </div>
               </div>
 
-              <div className="h-9 w-px bg-[#E2DACB] dark:bg-[#2A313A] hidden sm:block"></div>
 
               <div className="flex items-center gap-3">
                 <div className="w-11 h-11 rounded-xl bg-[#FCF9EE] dark:bg-[#1E232A] border border-[#EFE2B0]/80 dark:border-[#2A313A] flex items-center justify-center text-[#B8860B] dark:text-[#C5A059] shadow-xs">
@@ -96,6 +95,24 @@ export const Hero: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="h-9 w-px bg-[#E2DACB] dark:bg-[#2A313A] hidden sm:block"></div>
+
+              <div className="flex items-center gap-3">
+                <div className="w-11 h-11 rounded-xl bg-[#FCF9EE] dark:bg-[#1E232A] border border-[#EFE2B0]/80 dark:border-[#2A313A] flex items-center justify-center text-[#B8860B] dark:text-[#C5A059] shadow-xs">
+                  <span className="material-symbols-outlined text-[22px]">
+                    verified_user
+                  </span>
+                </div>
+                <div>
+                  <div className="font-serif text-2xl font-bold text-[#0F172A] dark:text-[#F1F5F9]">
+                    Baru & Higienis
+                  </div>
+                  <div className="text-xs uppercase tracking-wider text-[#64748B] dark:text-[#94A3B8] font-medium">
+                    Servis & cleaning rutin
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -104,7 +121,7 @@ export const Hero: React.FC = () => {
             <div className="relative mx-auto rounded-3xl overflow-hidden border border-[#E9DFCE] dark:border-[#2A313A] bg-white dark:bg-[#1E232A] p-3 shadow-[0_10px_30px_-5px_rgba(212,175,55,0.12),0_4px_6px_-2px_rgba(0,0,0,0.03)] dark:shadow-glow-warm">
               <img
                 className="w-full h-80 lg:h-96 object-cover rounded-2xl"
-                alt="Armada mobil mewah Nusantara Trans"
+                alt="Armada mobil mewah Hadi Trip"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6yYkwpArRDXlVSjHB3CxyRCV5M_eGQPS7zCuOA4LnH3ckIwW5_A4XKTlg62YjXgdJIOl5C-lC7l7WYgnKi8Go9gr9L_JJHlJZxdteX6SFiuOqVwi9P0P9-d17BkGANBFcNHdGsHN5uBs-Szu37Oi2So0QV5nhs1lKT728VLp_2ytqrE1Xgunv_ID28YI-vnZ8ZUkNhGhcbsUIiK_3frGf2NseqyQFY8oEUeQX8Xo"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = '/assets/aistudio/Image_1_936f7feb.jpeg';
@@ -112,7 +129,7 @@ export const Hero: React.FC = () => {
               />
 
               {/* Floating Notification Card */}
-              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 dark:bg-[#1E232A]/95 backdrop-blur-md border border-[#E9DFCE] dark:border-[#2A313A] shadow-lg flex items-center justify-between">
+              {/* <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 dark:bg-[#1E232A]/95 backdrop-blur-md border border-[#E9DFCE] dark:border-[#2A313A] shadow-lg flex items-center justify-between">
                 <div className="flex items-center gap-3.5">
                   <div className="w-10 h-10 rounded-xl bg-[#F7F2D8] dark:bg-[#252C36] flex items-center justify-center text-[#8F6705] dark:text-[#C5A059]">
                     <span className="material-symbols-outlined text-[22px]">
@@ -132,7 +149,7 @@ export const Hero: React.FC = () => {
                   Ready
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

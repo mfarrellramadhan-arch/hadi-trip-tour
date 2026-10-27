@@ -11,7 +11,7 @@ export const TourModal: React.FC<TourModalProps> = ({ tour, isOpen, onClose }) =
   if (!isOpen || !tour) return null;
 
   const handleBookViaWhatsApp = () => {
-    const message = `Halo Nusantara Trans, saya ingin memesan *${tour.title}* (${tour.durationBadge}):
+    const message = `Halo Hadi Trip, saya ingin memesan *${tour.title}* (${tour.durationBadge}):
 *Harga*: ${tour.priceFormatted} / Pax
 *Asal Keberangkatan*: ${tour.departure}
 
@@ -28,7 +28,7 @@ Mohon informasi ketersediaan tanggal keberangkatan dan prosedur booking. Terima 
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-5 right-5 w-9 h-9 rounded-full bg-[#FAF9F5] dark:bg-[#1E232B] hover:bg-[#FCF9EE] dark:hover:bg-[#262015] border border-[#E9DFCE] dark:border-[#282E38] text-[#64748B] dark:text-[#94A3B8] hover:text-[#0F172A] dark:hover:text-[#F1F5F9] flex items-center justify-center transition-colors cursor-pointer"
+          className="absolute top-5 right-5 w-9 h-9 z-10 rounded-full bg-[#FAF9F5] dark:bg-[#1E232B] hover:bg-[#FCF9EE] dark:hover:bg-[#262015] border border-[#E9DFCE] dark:border-[#282E38] text-[#64748B] dark:text-[#94A3B8] hover:text-[#0F172A] dark:hover:text-[#F1F5F9] flex items-center justify-center transition-colors cursor-pointer"
         >
           <span className="material-symbols-outlined text-[20px]">close</span>
         </button>

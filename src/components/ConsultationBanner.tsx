@@ -31,7 +31,7 @@ export const ConsultationBanner: React.FC = () => {
               <span>Hubungi Admin WhatsApp</span>
             </a>
             <a
-              className="px-6 py-3.5 rounded-xl bg-white/80 hover:bg-white dark:bg-[#161B21] dark:hover:bg-[#252C36] text-[#0F172A] dark:text-[#E2E8F0] text-xs sm:text-sm font-semibold uppercase tracking-wider flex items-center justify-center gap-2 border border-[#E4CE83] dark:border-[#2A313A] shadow-xs transition-all text-center cursor-pointer"
+              className="px-6 py-4 rounded-xl bg-white/80 hover:bg-white dark:bg-[#161B21] dark:hover:bg-[#252C36] text-[#0F172A] dark:text-[#E2E8F0] text-xs sm:text-sm font-semibold uppercase tracking-wider flex items-center justify-center gap-2 border border-[#E4CE83] dark:border-[#2A313A] shadow-xs transition-all text-center cursor-pointer"
               href="tel:+6281234567890"
             >
               <span className="material-symbols-outlined text-[20px] text-[#8F6705] dark:text-[#C5A059]">call</span>

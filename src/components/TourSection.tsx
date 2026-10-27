@@ -62,7 +62,7 @@ export const TourSection: React.FC<TourSectionProps> = ({
                 </div>
 
                 {/* Content */}
-                <div className="p-5 space-y-2.5">
+                <div className="p-6 space-y-2.5">
                   <div className="text-xs uppercase tracking-wider text-[#8F6705] dark:text-[#C5A059] font-semibold">
                     {tour.departure}
                   </div>
@@ -91,7 +91,7 @@ export const TourSection: React.FC<TourSectionProps> = ({
               </div>
 
               {/* Price & Action */}
-              <div className="p-5 pt-0">
+              <div className="p-6 pt-0">
                 <div className="pt-4 border-t border-[#EFE9DE] dark:border-[#2A313A] flex items-center justify-between">
                   <div>
                     <span className="text-[11px] text-[#64748B] dark:text-[#94A3B8] block">

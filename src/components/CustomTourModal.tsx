@@ -44,7 +44,7 @@ export const CustomTourModal: React.FC<CustomTourModalProps> = ({
     }
     setErrorMsg('');
 
-    const message = `Halo Konsultan Nusantara Trans, saya ingin menyusun *Custom Rute Wisata Nusantara*:
+    const message = `Halo Konsultan Hadi Trip, saya ingin menyusun *Custom Rute Wisata Nusantara*:
 *Destinasi*: ${destinations.join(' + ')}
 *Durasi Tour*: ${duration}
 *Prakiraan Berangkat*: ${startDate}

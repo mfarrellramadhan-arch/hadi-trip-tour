@@ -42,7 +42,7 @@ export const Testimonials: React.FC = () => {
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#0F172A] dark:text-[#F1F5F9] tracking-tight">
             Apa Kata Klien Kami?
           </h2>
-          <p className="text-[#475569] dark:text-[#94A3B8] text-sm sm:text-base font-normal">
+          <p className="text-[#475569] dark:text-[#94A3B8] text-sm sm:text-base font-normal leading-relaxed">
             Kepercayaan dari ribuan keluarga, profesional, dan institusi yang telah menjelajahi nusantara bersama kami.
           </p>
         </div>
@@ -52,7 +52,7 @@ export const Testimonials: React.FC = () => {
           {reviews.map((rev, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-[#1E232A] p-7 rounded-2xl border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-[0_2px_14px_rgba(30,41,59,0.04),0_0_0_1px_rgba(233,223,206,0.75)] dark:shadow-subtle-card hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+              className="bg-white dark:bg-[#1E232A] p-6 rounded-2xl border border-[#E9DFCE] dark:border-[#2A313A] shadow-[0_2px_14px_rgba(30,41,59,0.04),0_0_0_1px_rgba(233,223,206,0.75)] dark:shadow-subtle-card flex flex-col justify-between"
             >
               <div className="space-y-4">
                 {/* 5 Stars */}

@@ -13,9 +13,9 @@ export const WhyChooseUs: React.FC = () => {
             Standar Pelayanan Eksekutif
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#0F172A] dark:text-[#F1F5F9] leading-snug tracking-tight">
-            Kenapa Ribuan Pelanggan Memilih{' '}
+            Kenapa Ribuan Pelanggan Memilih {' '}
             <span className="text-[#B8860B] dark:text-[#C5A059] italic font-normal">
-              Nusantara Trans?
+              Hadi Trip?
             </span>
           </h2>
           <p className="text-[#475569] dark:text-[#94A3B8] text-sm sm:text-base leading-relaxed font-normal">
@@ -39,7 +39,7 @@ export const WhyChooseUs: React.FC = () => {
         {/* Right Column: 4 Pillars */}
         <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Pillar 1 */}
-          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-sm hover:shadow-md transition-all duration-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-[#F7F2D8]/70 dark:bg-[#161B21] border border-[#EFE2B0] dark:border-[#3D3728] flex items-center justify-center text-[#8F6705] dark:text-[#C5A059] mb-4 shadow-sm">
               <span className="material-symbols-outlined text-[26px]">
                 clean_hands
@@ -54,7 +54,7 @@ export const WhyChooseUs: React.FC = () => {
           </div>
 
           {/* Pillar 2 */}
-          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-sm hover:shadow-md transition-all duration-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-[#F7F2D8]/70 dark:bg-[#161B21] border border-[#EFE2B0] dark:border-[#3D3728] flex items-center justify-center text-[#8F6705] dark:text-[#C5A059] mb-4 shadow-sm">
               <span className="material-symbols-outlined text-[26px]">
                 badge
@@ -69,7 +69,7 @@ export const WhyChooseUs: React.FC = () => {
           </div>
 
           {/* Pillar 3 */}
-          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-sm hover:shadow-md transition-all duration-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-[#F7F2D8]/70 dark:bg-[#161B21] border border-[#EFE2B0] dark:border-[#3D3728] flex items-center justify-center text-[#8F6705] dark:text-[#C5A059] mb-4 shadow-sm">
               <span className="material-symbols-outlined text-[26px]">
                 payments
@@ -84,7 +84,7 @@ export const WhyChooseUs: React.FC = () => {
           </div>
 
           {/* Pillar 4 */}
-          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#E4CE83] dark:hover:border-[#C5A059]/40 shadow-sm hover:shadow-md transition-all duration-300">
+          <div className="p-6 rounded-2xl bg-white dark:bg-[#1E232A] border border-[#E9DFCE] dark:border-[#2A313A] shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-[#F7F2D8]/70 dark:bg-[#161B21] border border-[#EFE2B0] dark:border-[#3D3728] flex items-center justify-center text-[#8F6705] dark:text-[#C5A059] mb-4 shadow-sm">
               <span className="material-symbols-outlined text-[26px]">
                 published_with_changes

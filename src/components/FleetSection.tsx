@@ -22,7 +22,7 @@ export const FleetSection: React.FC<FleetSectionProps> = ({
   return (
     <section className="py-24 max-w-7xl mx-auto px-6 lg:px-12" id="sewa-mobil">
       {/* Section Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FCF9EE] dark:bg-[#1E232A] border border-[#EFE2B0] dark:border-[#2A313A] text-[#705007] dark:text-[#C5A059] text-xs uppercase tracking-wider font-semibold">
             <span className="material-symbols-outlined text-[16px]">
@@ -56,7 +56,7 @@ export const FleetSection: React.FC<FleetSectionProps> = ({
                 className={`px-4 py-2 rounded-full text-xs uppercase tracking-wider font-semibold transition-all duration-200 cursor-pointer ${
                   isActive
                     ? 'bg-gradient-to-r from-[#D4AF37] to-[#B8860B] text-white shadow-sm'
-                    : 'bg-white dark:bg-[#1E232A] text-[#334155] dark:text-[#94A3B8] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#D7B756] hover:bg-[#FCF9EE] dark:hover:border-[#C5A059] dark:hover:text-[#E2E8F0]'
+                    : 'bg-white dark:bg-[#1E232A] text-[#334155] dark:text-[#94A3B8] border border-[#E9DFCE] dark:border-[#2A313A] hover:border-[#D7B756] hover:bg-[#FCF9EE] dark:hover:bg-[#262D36] dark:hover:border-[#8B7343] dark:hover:text-[#E2E8F0] transition-colors duration-200'
                 }`}
               >
                 {cat.label}
@@ -145,7 +145,7 @@ export const FleetSection: React.FC<FleetSectionProps> = ({
             </div>
 
             {/* Price & CTA Buttons */}
-            <div className="pt-4 border-t border-[#EFE9DE] dark:border-[#2A313A] flex items-center justify-between">
+            <div className="pt-4 border-t border-[#EFE9DE] dark:border-[#2A313A] flex flex-col items-start gap-3">
               <div>
                 <span className="text-xs text-[#64748B] dark:text-[#94A3B8] block">
                   {vehicle.priceNote}
@@ -158,7 +158,7 @@ export const FleetSection: React.FC<FleetSectionProps> = ({
                 </div>
               </div>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 self-end">
                 <button
                   type="button"
                   onClick={() => onViewVehicleDetail(vehicle)}

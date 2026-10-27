@@ -15,11 +15,11 @@ export const Footer: React.FC = () => {
                 </span>
               </div>
               <span className="font-serif text-2xl font-bold text-white">
-                Nusantara Trans
+                Hadi Trip
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              Penyedia jasa rental mobil eksekutif, sewa kendaraan rombongan, dan paket wisata nusantara resmi berbadan hukum PT Nusantara Trans Indonesia.
+              Penyedia jasa rental mobil eksekutif, sewa kendaraan rombongan, dan paket wisata nusantara resmi berbadan hukum PT Hadi Trip Indonesia.
             </p>
             <div className="flex flex-wrap items-center gap-2.5 pt-2 text-slate-300">
               <span className="text-xs bg-[#1E293B] border border-slate-700 px-3 py-1.5 rounded-lg font-medium">
@@ -150,7 +150,7 @@ export const Footer: React.FC = () => {
 
           {/* Copyright text */}
           <p className="text-xs text-slate-500">
-            © 2024 Nusantara Trans Indonesia. Seluruh hak cipta dilindungi.
+            © 2026 Hadi Trip Indonesia. Seluruh hak cipta dilindungi.
           </p>
         </div>
       </div>

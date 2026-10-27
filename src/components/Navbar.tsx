@@ -63,17 +63,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           <a
             href="#"
             className="flex items-center gap-2.5 sm:gap-3 shrink-0 group active:scale-95 transition-transform duration-150"
-            aria-label="Nusantara Trans Home"
+            aria-label="Hadi Trip"
           >
             <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-[#D4AF37] to-[#B8860B] flex items-center justify-center text-white shadow-md shadow-[#C59E30]/25 shrink-0">
               <Car className="w-5 h-5 text-white" />
             </div>
             <div className="flex flex-col shrink-0">
               <span className="font-serif text-lg sm:text-2xl font-bold tracking-tight text-[#0F172A] dark:text-[#F1F5F9] group-hover:text-[#B8860B] dark:group-hover:text-[#C5A059] transition-colors whitespace-nowrap">
-                Nusantara Trans
+                Hadi Trip
               </span>
               <span className="text-[10px] sm:text-[11px] font-semibold tracking-wider uppercase text-[#8F6705] dark:text-[#C5A059] -mt-0.5 sm:-mt-1 whitespace-nowrap">
-                Tour &amp; Rental Service
+                Tour &amp; Travel
               </span>
             </div>
           </a>
@@ -168,7 +168,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     <Car className="w-4 h-4 text-white" />
                   </div>
                   <span className="font-serif text-lg font-bold text-[#0F172A] dark:text-[#F1F5F9]">
-                    Nusantara Trans
+                    Hadi Trip
                   </span>
                 </div>
                 <div className="flex items-center gap-1.5">
@@ -238,7 +238,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </a>
 
               <p className="text-center text-[11px] text-[#94A3B8] dark:text-slate-500">
-                PT Nusantara Trans Indonesia
+                PT Hadi Trip Indonesia
               </p>
             </div>
           </div>
